@@ -1,0 +1,96 @@
+.form-container{
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  background-image: linear-gradient(red  ,white,blueviolet);
+ }
+
+ .form-box{
+  height: 600px;
+  width: 500px;
+  background-color: white;
+  border-radius: 5%;
+  
+  margin: 10%;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
+  color: rgb(166, 14, 166);
+ }
+
+ .Header{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 10vh;
+  color: red;
+  font-size: 40px;
+  font-style: italic;
+  font-family: cursive;
+ }
+
+ 
+
+ .mb-3{
+  color: blueviolet;
+  padding-right: 400px;
+  font-size: larger;
+ }
+
+ .text{
+  border-radius: 60px;
+  margin-left: 5px;
+  height: 30px;
+  width: 200px;
+  box-shadow: inset 0px 0px 30px 0px rgb(72, 70, 70);
+  color: red;
+  }
+
+
+ .radio{
+  color: blueviolet;
+  font-size: larger;
+ }
+
+ .submit{
+  margin-left: 20px;
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: blueviolet;
+  color: blueviolet;
+ }
+
+ .submit:hover{
+  color: black;
+  background-color: rgb(25, 248, 25);
+ }
+h1{
+ color: black;
+  background: transparent;
+  background-color: blueviolet;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.check{
+  color: red;
+}
+
+.Reset{
+  margin-left: 20px;
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: blueviolet;
+  color: blueviolet;
+ }
+
+ .Reset:hover{
+  color: black;
+  background-color: rgb(255, 10, 10);
+ }
